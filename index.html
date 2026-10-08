@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Undangan Pernikahan Syamsul & Azizah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+  <!-- KOVER DEPAN -->
+  <section id="cover" class="cover">
+    <div class="cover-inner">
+      <p class="small">The Wedding Of</p>
+      <h1 class="script">Syamsul <br>&amp;<br>Azizah</h1>
+      <p class="small mt">Kepada Yth. Bapak/Ibu/Saudara/i:</p>
+      <h2 id="guestName" class="guest">Tamu Undangan</h2>
+      <p class="tiny">Tanpa mengurangi rasa hormat, kami mengundang Anda untuk hadir di hari bahagia kami.</p>
+      <button id="openBtn" class="btn">Buka Undangan</button>
+    </div>
+  </section>
+
+  <!-- KONTEN UTAMA -->
+  <main id="main" class="hidden">
+
+    <section class="sec hero" id="mempelai">
+      <p class="small reveal">Kami Mengundang Anda Pada Pernikahan</p>
+      <h2 class="title reveal">Syamsul &amp; Azizah</h2>
+      <p class="quote reveal">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan dari jenismu sendiri, agar kamu merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang."<br><em>(QS. Ar-Rum: 21)</em></p>
+
+      <div class="couple">
+        <div class="person reveal">
+          <img src="poto/p-l.jpeg" alt="Foto Syamsul">
+          <h3>M. Syamsul Hadi, S.Pd</h3>
+          <p>Putra ketiga dari Bapak M. Sapowan Hadi (alm) &amp; Ibu Saminah</p>
+        </div>
+        <div class="amp reveal">&amp;</div>
+        <div class="person reveal">
+          <img src="poto/p-w.jpeg" alt="Foto Azizah">
+          <h3>Nur Azizah, Q.H., S.Pd</h3>
+          <p>Putri pertaman dari Bapak Sahur &amp; Ibu Nurhasanah</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec alt" id="acara">
+      <h2 class="title reveal">Detail Acara</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <h3>Akad Nikah</h3>
+          <p class="date">Minggu, 18 Oktober 2026</p>
+          <p>09.00 - 10.00 WITA</p>
+          <p>Rumah Kami RT.009<br>Dusun Tibu Jae Desa Rensing Bat Kec. Sakra Barat</p>
+          <a class="btn sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Denpasar+Bali">Lihat Peta</a>
+        </article>
+        <article class="card reveal">
+          <h3>Resepsi</h3>
+          <p class="date">Minggu, 18 Oktober 2026</p>
+          <p>10.30 - 12.30 WITA</p>
+          <p>Rumah Kami RT.009<br>Dusun Tibu Jae Desa Rensing Bat Kec. Sakra Barat</p>
+          <a class="btn sm" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Denpasar+Bali">Lihat Peta</a>
+        </article>
+      </div>
+
+      <h3 class="sub reveal">Menuju Hari Bahagia</h3>
+      <div id="countdown" class="countdown reveal">
+        <div><span id="cd-d">0</span><small>Hari</small></div>
+        <div><span id="cd-h">0</span><small>Jam</small></div>
+        <div><span id="cd-m">0</span><small>Menit</small></div>
+        <div><span id="cd-s">0</span><small>Detik</small></div>
+      </div>
+      <p id="cd-msg" class="small"></p>
+    </section>
+
+    <section class="sec" id="galeri">
+      <h2 class="title reveal">Galeri Kami</h2>
+      <div class="gallery">
+        <img class="reveal" src="poto/p-l.jpeg" alt="Galeri 1" loading="lazy">
+        <img class="reveal" src="poto/p-l.jpeg" alt="Galeri 2" loading="lazy">
+        <img class="reveal" src="poto/p-w.jpeg" alt="Galeri 3" loading="lazy">
+        <img class="reveal" src="poto/p-w.jpeg" alt="Galeri 4" loading="lazy">
+        <img class="reveal" src="poto/p-lw.jpeg" alt="Galeri 5" loading="lazy">
+        <img class="reveal" src="poto/p-lw.jpeg" alt="Galeri 6" loading="lazy">
+      </div>
+    </section>
+
+    <section class="sec alt" id="hadiah">
+      <h2 class="title reveal">Amplop Digital</h2>
+      <p class="small reveal">Doa restu Anda adalah hadiah terindah. Namun jika ingin berbagi kebahagiaan, dapat melalui:</p>
+      <div class="cards">
+        <article class="card reveal">
+          <h3>Bank BCA</h3>
+          <p class="rek" id="rek1">1234567890</p>
+          <p>a.n. Raka Pratama</p>
+          <button class="btn sm copy" data-target="rek1">Salin Nomor Rekening</button>
+        </article>
+        <article class="card reveal">
+          <h3>Bank Mandiri</h3>
+          <p class="rek" id="rek2">0987654321</p>
+          <p>a.n. Nur Azizah</p>
+          <button class="btn sm copy" data-target="rek2">Salin Nomor Rekening</button>
+        </article>
+        <article class="card reveal">
+          <h3>QRIS</h3>
+          <img class="qris" src="https://picsum.photos/seed/qris/200/200" alt="QRIS (ganti dengan gambar QRIS)">
+        </article>
+      </div>
+    </section>
+
+    <section class="sec" id="ucapan">
+      <h2 class="title reveal">Ucapan &amp; RSVP</h2>
+      <form id="rsvpForm" class="form reveal">
+        <input type="text" id="nama" name="nama" placeholder="Nama Anda" required maxlength="40">
+        <select id="hadir" name="hadir" required>
+          <option value="" disabled selected>Konfirmasi Kehadiran</option>
+          <option value="Hadir">Hadir</option>
+          <option value="Tidak Hadir">Tidak Hadir</option>
+        </select>
+        <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis ucapan & doa..." required maxlength="300"></textarea>
+        <button type="submit" class="btn">Kirim Ucapan</button>
+      </form>
+      <div id="wishList" class="wishes"></div>
+    </section>
+
+    <footer class="foot">
+      <p class="small">Terima kasih atas doa dan restu Anda.</p>
+      <h3 class="script">Syamsul &amp; Azizah</h3>
+    </footer>
+  </main>
+
+  <!-- Musik & kontrol -->
+  <audio id="bgm" loop preload="auto">
+    <source src="audio/musik.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicBtn" class="music hidden" aria-label="Putar/Jeda musik">&#9835;</button>
+  <div id="toast" class="toast"></div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
