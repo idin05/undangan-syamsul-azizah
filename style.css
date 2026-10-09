@@ -33,6 +33,16 @@ h1, h2, h3, .script, .title { font-family: 'Playfair Display', serif; color: var
   box-shadow: 0 6px 16px rgba(143,109,46,.3);
   transition: transform .2s, box-shadow .2s;
 }
+
+.btn i {
+  margin-right: 6px;
+  font-size: 1em;
+}
+
+.btn i.fa-envelope {
+  font-size: 1.05em;
+}
+
 .btn:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(143,109,46,.4); }
 .btn.sm { padding: .55rem 1.4rem; font-size: .85rem; margin-top: .8rem; }
 
