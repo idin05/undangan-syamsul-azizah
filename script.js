@@ -116,7 +116,7 @@ function renderWishes() {
     const name = document.createElement('b');
     name.textContent = w.nama;
     const badge = document.createElement('span');
-    badge.className = 'badge' + (w.hadir === 'Hadir' ? '' : ' no');
+    badge.className = 'badge' + (w.hadir === 'Hadir' ? '' : w.hadir === 'Ragu-ragu' ? ' maybe' : ' no');
     badge.textContent = w.hadir;
     head.append(name, badge);
     const p = document.createElement('p');
